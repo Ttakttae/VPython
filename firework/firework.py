@@ -4,8 +4,8 @@ import random, time
 
 while True:
     Canvas = canvas()
-    # Canvas.width = 1300
-    # Canvas.height = 800
+    Canvas.width = 1300
+    Canvas.height = 800
     fireworks = []
     for i in range(5):
         x = random.randint(-50, 50)
@@ -48,74 +48,114 @@ while True:
         for a in range(7):
             firework1.pos.x += 1
             firework1.pos.y += 1
+            firework1.pos.z += 0.5
             firework2.pos.x += -1
             firework2.pos.y += 1
+            firework2.pos.z += 0.5
             firework3.pos.x += -1
             firework3.pos.y += -1
+            firework3.pos.z += 0.5
             firework4.pos.x += 1
             firework4.pos.y += -1
+            firework4.pos.z += 0.5
             firework5.pos.x += 1
             firework5.pos.y += 0.5
+            firework5.pos.z += 0.5
             firework6.pos.x += -1
             firework6.pos.y += 0.5
+            firework6.pos.z += 0.5
             firework7.pos.x += -1
             firework7.pos.y += -0.5
+            firework7.pos.z += 0.5
             firework8.pos.x += 1
             firework8.pos.y += -0.5
+            firework8.pos.z += 0.5
             firework9.pos.x += 1
             firework9.pos.y += 2
+            firework9.pos.z += 0.5
             firework10.pos.x += -1
             firework10.pos.y += 2
+            firework10.pos.z += 0.5
             firework11.pos.x += -1
             firework11.pos.y += -2
+            firework11.pos.z += 0.5
             firework12.pos.x += 1
             firework12.pos.y += -2
+            firework12.pos.z += 0.5
             firework13.pos.x += 1
+            firework13.pos.z += 0.5
             firework14.pos.x += -1
+            firework14.pos.z += 0.5
             firework15.pos.y += 1
+            firework15.pos.z += 0.5
             firework16.pos.y += -1
+            firework16.pos.z += 0.5
             time.sleep(0.01)
         for b in range(3):
             firework1.pos.x += 1
             firework1.pos.y += 1
+            firework1.pos.z += 0.5
             firework2.pos.x += -1
             firework2.pos.y += 1
+            firework2.pos.z += 0.5
             firework3.pos.x += -1
             firework3.pos.y += -1
+            firework3.pos.z += 0.5
             firework4.pos.x += 1
             firework4.pos.y += -1
+            firework4.pos.z += 0.5
             firework5.pos.x += 1
             firework5.pos.y += 0.5
+            firework5.pos.z += 0.5
             firework6.pos.x += -1
             firework6.pos.y += 0.5
+            firework6.pos.z += 0.5
             firework7.pos.x += -1
             firework7.pos.y += -0.5
+            firework7.pos.z += 0.5
             firework8.pos.x += 1
             firework8.pos.y += -0.5
+            firework8.pos.z += 0.5
             firework13.pos.x += 1
+            firework13.pos.z += 0.5
             firework14.pos.x += -1
+            firework14.pos.z += 0.5
             firework15.pos.y += 1
+            firework15.pos.z += 0.5
             firework16.pos.y += -1
+            firework16.pos.z += 0.5
             time.sleep(0.01)
         for c in range(3):
             firework5.pos.x += 1
             firework5.pos.y += 0.5
+            firework5.pos.z += 0.5
             firework6.pos.x += -1
             firework6.pos.y += 0.5
+            firework6.pos.z += 0.5
             firework7.pos.x += -1
             firework7.pos.y += -0.5
+            firework7.pos.z += 0.5
             firework8.pos.x += 1
             firework8.pos.y += -0.5
+            firework8.pos.z += 0.5
             firework13.pos.x += 1
+            firework13.pos.z += 0.5
             firework14.pos.x += -1
+            firework14.pos.z += 0.5
             firework15.pos.y += 1
+            firework15.pos.z += 0.5
             firework16.pos.y += -1
+            firework16.pos.z += 0.5
             time.sleep(0.01)
         for d in range(3):
             firework13.pos.x += 1
+            firework13.pos.z += 0.5
             firework14.pos.x += -1
+            firework14.pos.z += 0.5
             firework15.pos.y += 1
+            firework15.pos.z += 0.5
             firework16.pos.y += -1
+            firework16.pos.z += 0.5
             time.sleep(0.01)
     time.sleep(5)
     Canvas.delete()
