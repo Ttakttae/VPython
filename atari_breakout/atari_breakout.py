@@ -362,9 +362,8 @@ class Main:
         :return:
         """
         self._monitor.delete() #모니터(캔버스)를 삭제
-        self._monitor = canvas(width=1300, height=800) #모니터(캔버스)를 재생성
-        self._end = False #게임을 다시 안 끝난 상태로 변경
-        self.__init__()
+        del self.heart, self.ball_bar, self.ball, self.blocks, self.wall #클래스 모두 삭제
+        self.__init__() #모든 것 초기화 및 재생성
 
     @property
     def end(self):
